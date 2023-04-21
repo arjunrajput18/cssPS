@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.searchBox{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0px;
+    /* if we write only margin :10px  it will apply all side  so use margin:10px 0  so it will apply top bottom */
+    padding: 0 20px;
+    background-color: #ffffff;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #cccccc
+}

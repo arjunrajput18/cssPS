@@ -1,0 +1,29 @@
+/* box shadow :horizonal vertical blur spread color */
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px ;
+    margin: 10px;
+    /*border: 2px solid red;
+    */background-color: #ffffff;
+    width: 350px;
+    padding: 5px;
+   
+}
+
+.title{
+    font-size: 24px;
+    color:#333333;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+.description{
+    font-size: 18px;
+    color: #666666;
+    margin: 10px;
+}
