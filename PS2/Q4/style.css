@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+
+
+}
+
+.cardContainer{
+    border-radius: 6px;
+    margin: 5rem;
+    padding: 1rem;
+    width: 300px;
+    /*border: 1px solid black;
+    */
+    box-shadow: 0px 4px 8px gray;
+    
+}
+.freeMonth{
+    border: 1px solid black;
+    padding: 8px 16px 6px 5px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    /* display :inline  we can not used height width padding marging */
+/* display :inline-block  we can used height width padding margning  */
+}
+h1{
+    margin-bottom: 1rem;
+    color:#313131
+}
+.priceTag{
+   
+    background-color: #f9f8f9;
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+
+}
+button{
+    padding: 5px 18px ;
+    color: white;
+    background-color: #2A2A2A;
+    border-radius: 6px;
+   
+}
+
+.list{
+    line-height: 2rem;
+    color: #8b8a8a;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
