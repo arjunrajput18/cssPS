@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  color: aliceblue;
+}
+.cardContainer {
+  text-align: center;
+  width: 400px;
+  height: 500px;
+}
+
+.cardImg {
+  height: 500px;
+  width: 400px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+h1,
+p {
+  margin: 0;
+  margin-bottom: 7px;
+}
+.innerContainer {
+  position: relative;
+  bottom: 105px;
+  /* bottom apply only when we write position relative  */
+  /* adjusted away from its normal position. */
+  /* fixed abouslte aas consider kart ki there is no div */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(19, 17, 17, 0.498);
+}

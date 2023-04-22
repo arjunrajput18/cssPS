@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+
+}
+
+img{
+  height: 400px;
+  width: 500px;
+  border-radius: 1rem;
+}
+
+.cardContainer{
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    position: relative;
+    width: 500px;
+    text-align: center;
+}
+
+.innerContainer{
+    position: absolute;
+    bottom: 0px;
+    background-color: aliceblue;
+    border-radius: 0rem 0rem 1rem 1rem;
+    width: 500px;
+}
+p{
+    color: gray;
+}

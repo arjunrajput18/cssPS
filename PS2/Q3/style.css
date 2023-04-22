@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  padding-left: 5px;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+.cardContainer {
+  position: relative;
+  width: 400px;
+ 
+}
+
+h2 {
+  margin: 0px;
+
+  color: white;
+}
+p {
+  color: #747373;
+  margin-bottom: 10px;
+}
+a {
+ text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.cardInnerContainer {
+  position: absolute;
+  background-color: #1d1d1d;
+  bottom: 0px;
+
+
+  padding: 1rem;
+}
