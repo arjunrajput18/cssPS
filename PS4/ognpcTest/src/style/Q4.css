@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.innerContainer{
+    margin-left: 1rem;
+    box-shadow: 0 2px 4px rgb(0, 0, 0.1);
+    padding-left: 2rem;
+    margin-top: 3rem;
+}
+ul {
+  list-style-type: none;
+  width: 250px;
+
+}
+
+button {
+  background-color: #292a2a;
+  color: white;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  margin-bottom:1rem ;
+}
+
+li {
+    margin: 0;
+  padding-bottom: 1.5rem;
+}
+.MonthlyPlan {
+  width: fit-content;
+  border: 1px solid black;
+  padding: 0.5rem 0.2rem;
+  margin-top:2rem ;
+}
+
+.line {
+  border-bottom: solid 1px black;
+}
+
+.space{
+    margin-bottom: 1rem;
+    
+}
+.price{
+    background-color:#ede2e2ac;
+    width: fit-content;
+    padding-left:1rem ;
+
+}
