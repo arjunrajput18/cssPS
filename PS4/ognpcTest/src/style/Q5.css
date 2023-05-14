@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.innerContainer{
+border: 5px solid  #13C158;
+padding: 1.5rem 1rem;
+
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.itemList{
+display: flex;
+flex-direction: column;
+}
+.listdetails{
+    display: flex;
+flex-direction: row;
+}
+
+.qtyList{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    width: 66%;
+    padding: 0.54rem 0rem;
+}
+.flexrow{
+    display: flex;
+    justify-content: space-between;
+    
+}
+button{
+    background-color: #13C158;
+    color:white;
+    border:#13C158;
+    padding:0.5rem 0rem;
+    width:100%;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+.secured{
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+b{
+    padding-bottom: 0.5rem;
+}

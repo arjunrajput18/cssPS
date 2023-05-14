@@ -13,7 +13,6 @@ export const Header = () => {
         <NavLink to="/q3">Q3</NavLink>|{" "}
         <NavLink to="/q4">Q4</NavLink>|{" "}
         <NavLink to="/q5">Q5</NavLink>|{" "}
-        <NavLink to="/q5">Q5</NavLink>|{" "}
     </div>
   )
 }
